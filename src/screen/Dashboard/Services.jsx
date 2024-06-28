@@ -31,7 +31,7 @@ const Services = () => {
         barStyle={'dark-content'}
         backgroundColor={theme.colors.white}
       />
-      <ScrollView>
+      <ScrollView showsVerticalScrollIndicator={false}>
         <View style={[styles.container, {width: width / 1.1}]}>
           <View style={styles.header}>
             <Text style={styles.main_heading}>Services</Text>
@@ -155,6 +155,7 @@ const styles = StyleSheet.create({
   container: {
     alignSelf: 'center',
     marginTop: 30,
+    marginBottom:20
   },
   header: {
     gap: 10,
@@ -175,7 +176,7 @@ const styles = StyleSheet.create({
     backgroundColor: theme.colors.white,
     alignSelf: 'center',
     borderRadius: 20,
-    // marginTop: -130,
+    marginTop:30
   },
   row: {
     flexDirection: 'row',
