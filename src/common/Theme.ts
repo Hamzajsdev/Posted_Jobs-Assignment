@@ -11,6 +11,11 @@ const theme = {
       mdGray:'#B3B3B3',
       shadeGray:'#EBF8FD',
       lightGray:'#E8E8E8',
+
+      // ------------------------------
+      red:'#CF2D28',
+      gradiantGray:'#898989',
+      darkblack:'#151515'
       
     },
   };
